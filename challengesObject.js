@@ -12,14 +12,13 @@ age:10
 console.log(favoriteAnimal);
 
 // 3. Create a function that takes an array of numbers as an argument, and returns the sum of all the numbers in the array.
-function sumArray(numbers) {
- let sum =0;
- for(let i = 0; i < numbers.lenght;i++) {
+function sumArray(numbers)
+let sum = 0
+for(let i = 0; i < numbers.lengthk;i++) {
 }
-  return sum;
+return sum;
 }
-
-conlsole.log(sumArray([1,2,3,4,5]));
+console.log(sumArray([1,2,3,4,5]));
   
 // Medium
 // 4. Create an object that represents a car, with properties for make, model, and year. Add a method to the object that returns a formatted string with the car's make, model, and year.
