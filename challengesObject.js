@@ -1,8 +1,7 @@
 // Easy
 // 1. Create an array of your favorite movies, and log the second movie in the array to the console.
-const favoriteMovies = ["Inception","The Batman","Mad Max"]
+const favoriteMovies = ["Inception","The Batman","Mad Max"];
 console.log(favoriteMovies[1]);
-
 // 2. Create an object that represents your favorite animal, with properties for name, species, and age. Log the object to the console.
 const favoriteAnimal = {
   name:"Ike",
