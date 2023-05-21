@@ -1,9 +1,9 @@
 // Easy
 // 1. Create an array of your favorite movies, and log the second movie in the array to the console.
-const favoriteMovies = ["Mad Max","The Batman","Inception"];
+const favoriteMovies = ["Inception","The Batman","Mad Max"];
 console.log(favoriteMovies[1]);
 // 2. Create an object that represents your favorite animal, with properties for name, species, and age. Log the object to the console.
-const favoriteAnimal = {
+const favoriteAnimals = {
   name:"ike",
   species:"dog",
   age:10
@@ -18,17 +18,16 @@ function sumArray(numbers) {
   }
   return sum;
 }
+
 console.log(sumArray([1,2,3,4,5]));
-    
-  
 // Medium
 // 4. Create an object that represents a car, with properties for make, model, and year. Add a method to the object that returns a formatted string with the car's make, model, and year.
 const car = {
-  make: "Ford",
-  model: "Mustang",
-  year:2022,
+  make:"Ford",
+  model:"Mustang",
+  year: 2022,
   getDescription() {
-    return 'This car is a ${this,year} ${this.make} ${this.model}.';
+    return 'This car is a ${this.year} ${this.make} ${this.model}.';
   }
 };
 console.log(car.getDescription());
