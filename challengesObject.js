@@ -1,20 +1,20 @@
 // Easy
 // 1. Create an array of your favorite movies, and log the second movie in the array to the console.
-const favoriteMovies = ["Mad Max","Inception","The Batman"];
+const favoriteMovies = ["The Batman","Inception","Mad Max"];
 console.log(favoriteMovies[1]);
 // 2. Create an object that represents your favorite animal, with properties for name, species, and age. Log the object to the console.
 const favoriteAnimal = {
-  name:"ike",
+  name:"Ike",
   species:"dog",
-  age:11
+  age: 10
 };
 console.log(favoriteAnimal);
 
 // 3. Create a function that takes an array of numbers as an argument, and returns the sum of all the numbers in the array.
-function sunArray(numbers) {
+function sumArray(numbers) {
   let sum = 0;
   for (let i = 0; i < numbers.length; i++) {
-      sum += numbers[i];
+    sum += numbers[i];
   }
   return sum;
 }
